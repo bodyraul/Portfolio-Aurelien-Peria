@@ -1,0 +1,26 @@
+.anim-intro {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: black;
+  -webkit-animation: transition 3s 4.5s linear forwards;
+          animation: transition 3s 4.5s linear forwards;
+}
+
+@-webkit-keyframes transition {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}
+
+@keyframes transition {
+  0% {
+    transform: translateY(0%);
+  }
+  100% {
+    transform: translateY(-100%);
+  }
+}/*# sourceMappingURL=container.css.map */
